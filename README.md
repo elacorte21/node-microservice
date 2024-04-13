@@ -7,9 +7,16 @@ API endpoints for creating data, reading data, updating data, and deleting data 
 `nodemon`: to restart our server every time we save our file.\
 `dotenv`: to manage .env file.
 
+### Dependencies
 
 ```
-npm install express mongoose nodemon dotenv
+npm install express mongoose nodemon dotenv bcrypt jsonwebtoken
+```
+
+### `.env`
+```
+DATABASE_URL=
+JWT_SECRET=
 ```
 
 ## Available Scripts
